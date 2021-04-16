@@ -1,0 +1,47 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+body{
+    font-family:  "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.color{
+    color:  #2a2a4b;
+}
+
+header{
+    padding: 70px 5% 0;
+    text-align: center;
+}
+
+.header-text h5{
+    font-weight: 600;
+    color: #f7c973;
+    margin-bottom: 9%;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    height: 70px;
+    background: white;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom:  solid 1px #f2f2f8;
+}
+
+.brand-name{
+    margin-left: 5%;
+}
+
+.request{
+    margin-right: 5%;
+}
