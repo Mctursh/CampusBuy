@@ -9,7 +9,7 @@ p{
     color: #64647d;
 }
 
-body{
+body, button{
     font-family:  "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -24,6 +24,25 @@ section{
 header{
     padding: 70px 5% 0;
     text-align: center;
+}
+
+footer{
+    background: #f6f6f8;
+    padding: 1.25rem;
+    width: 100%;
+}
+.top-section{
+    width: 100%;
+    max-width: 618px;
+    text-align: center;
+    margin: 64px auto 115px;
+}
+.top-section button{
+    background: #6767df;
+    color: #fff;
+    min-height: 2.5rem;
+    padding: 1rem 3rem;
+    
 }
 .header-text{
     margin: 3rem 0;
@@ -58,4 +77,51 @@ nav{
 
 .request{
     margin-right: 5%;
+}
+
+.bottom-section{
+    display: grid;
+    grid-template-areas: "bottom-head bottom-head social"
+    "copyright copyright copyright";
+    margin-bottom: 0.5rem;
+    grid-gap: 10px;
+}
+
+.bottom-head{
+    grid-area: bottom-head;
+}
+.bottom-head h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.bottom-head p{
+    font-size: 1.5rem;
+    padding: 0.8rem 0 0;
+}
+
+.social{
+    grid-area: social;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.copyright{
+    text-align: center;
+    grid-area: copyright;
+}
+
+.right-bg-svg{
+    right: 0;
+    top: -10%;    
+    width: 100px;
+    position: fixed;
+}
+
+.left-bg-svg{
+    width: 100px;
+    width: 100px;
+    position: fixed;
+    left: -50px;
+    bottom: -15%;
 }
