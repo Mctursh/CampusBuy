@@ -2,6 +2,13 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 
+p{
+    padding: 0 5%;
+    font-size: 1.8rem;
+    line-height: 147.7%;
+    color: #64647d;
+}
+
 body{
     font-family:  "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -10,9 +17,16 @@ body{
     color:  #2a2a4b;
 }
 
+section{
+    margin: 6rem 0 3rem;
+}
+
 header{
     padding: 70px 5% 0;
     text-align: center;
+}
+.header-text{
+    margin: 3rem 0;
 }
 
 .header-text h5{
