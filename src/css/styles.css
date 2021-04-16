@@ -7,6 +7,7 @@ p{
     font-size: 1.8rem;
     line-height: 147.7%;
     color: #64647d;
+    margin: 0 0 3rem
 }
 
 body, button{
@@ -85,6 +86,7 @@ nav{
     "copyright copyright copyright";
     margin-bottom: 0.5rem;
     grid-gap: 10px;
+    padding: 0 2%;
 }
 
 .bottom-head{
@@ -120,8 +122,60 @@ nav{
 
 .left-bg-svg{
     width: 100px;
-    width: 100px;
     position: fixed;
     left: -50px;
     bottom: -15%;
+}
+
+
+/*************************MEDIA QUERIES*****************************/
+
+@media (min-width: 768px) {
+    .right-bg-svg{
+        top: -7%;
+        width: 450px;
+    }
+    .left-bg-svg{
+        width: 405px;
+        bottom: -10%;
+    }
+    .header-text{
+        padding: 17% 17% 10%;
+    }
+    p{
+        font-size: 2rem;
+    }
+    .copyright p{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    
+    .header-text{
+        padding: 17% 0;
+        max-width: 500px;
+        margin: auto;
+    }
+    p{
+        font-size: 2.5rem;
+    }
+    .top-section h1{
+        font-size: 4rem;
+    }
+
+    .top-section button{
+        padding: 2rem 4rem;
+        font-size: large;
+    }
+    .copyright p{
+        font-size: 1.5rem;
+    }
+    .bottom-section{
+        grid-template-areas: "bottom-head copyright social";
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr); 
+    }
+    
+
 }
