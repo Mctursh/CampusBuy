@@ -107,6 +107,10 @@ nav{
     justify-content: flex-end;
     align-items: center;
 }
+.middle{
+    max-width: 824px;
+    margin: auto;
+}
 
 .copyright{
     text-align: center;
